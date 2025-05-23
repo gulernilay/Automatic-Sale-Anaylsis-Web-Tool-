@@ -29,17 +29,21 @@ Bu proje, satış verilerinin detaylı analizini ve görselleştirilmesini sağl
    cd Automatic-Sale-Anaylsis-Web-Tool-
    pip install -r requirements.txt
 
-3.**Gizli Bilgiler** .streamlit/secrets.toml dosyasına kullanıcı adı ve parola ekleyin:
+3.**Gizli Bilgiler** 
+.streamlit/secrets.toml dosyasına kullanıcı adı ve parola ekleyin:
 [auth]
 username = "kullaniciadi"
 password = "parolaniz"
 
-4.**Kullanım**
-streamlit run [dashboard.py](http://_vscodecontentref_/0)
+4.**Kullanım** : 
 
+
+streamlit run [dashboard.py](http://_vscodecontentref_/0)
 Tarayıcıda açılan arayüzden giriş yaparak analizleri kullanabilirsiniz.
 
-5. **Klasör Yapısı**
+5. **Klasör Yapısı** :
+
+   
 dashboard.py: Ana uygulama dosyası
 Analysis_Functions/: Analiz fonksiyonları ve veri işleme modülleri
 .streamlit/secrets.toml: Giriş bilgileri
